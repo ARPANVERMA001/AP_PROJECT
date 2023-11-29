@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stickhero.stickhero.SaveMenuController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="61.0" fitWidth="370.0" layoutX="215.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/selectAsave.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/save1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/save2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/save3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="508.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/save4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="508.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/save5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="508.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/save6.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="save1" layoutX="95.0" layoutY="162.0" mnemonicParsing="false" onAction="#goToSave1" opacity="0.001" prefHeight="52.0" prefWidth="200.0" text="Save1" />
+      <Button fx:id="save2" layoutX="94.0" layoutY="304.0" mnemonicParsing="false" onAction="#goToSave2" opacity="0.001" prefHeight="52.0" prefWidth="200.0" text="Save2" />
+      <Button fx:id="save3" layoutX="99.0" layoutY="444.0" mnemonicParsing="false" onAction="#goToSave3" opacity="0.001" prefHeight="59.0" prefWidth="192.0" text="Save3" />
+      <Button fx:id="save4" layoutX="508.0" layoutY="162.0" mnemonicParsing="false" onAction="#goToSave4" opacity="0.001" prefHeight="52.0" prefWidth="200.0" text="Save4" />
+      <Button fx:id="save5" layoutX="508.0" layoutY="304.0" mnemonicParsing="false" onAction="#goToSave5" opacity="0.001" prefHeight="52.0" prefWidth="200.0" text="Save5" />
+      <Button fx:id="save6" layoutX="508.0" layoutY="448.0" mnemonicParsing="false" onAction="#goToSave6" opacity="0.001" prefHeight="52.0" prefWidth="200.0" text="Save6" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stickhero.stickhero.StartPlayController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/background.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="280.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="280.0" layoutY="253.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fx:id="start_gameimg" fitHeight="205.0" fitWidth="200.0" layoutX="280.0" layoutY="135.0" onMouseClicked="#start_game" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/startgame.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="saved_gameimg" fitHeight="45.0" fitWidth="200.0" layoutX="280.0" layoutY="265.0" onMouseClicked="#select_saved_game" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/selectAsave.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

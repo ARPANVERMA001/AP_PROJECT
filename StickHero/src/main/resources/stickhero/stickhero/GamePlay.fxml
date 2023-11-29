@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stickhero.stickhero.GamePlayController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" onMouseClicked="#background_start" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/background.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="195.0" layoutX="35.0" layoutY="405.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="platform1" fitHeight="195.0" fitWidth="165.0" layoutX="35.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/platform.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="195.0" layoutX="477.0" layoutY="405.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <ImageView fx:id="platform2" fitHeight="195.0" fitWidth="165.0" layoutX="477.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hero" fitHeight="47.0" fitWidth="40.0" layoutX="88.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/stickHero.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="stick" arcHeight="5.0" arcWidth="5.0" height="24.0" layoutX="126.0" layoutY="384.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <ImageView fx:id="cherry" fitHeight="47.0" fitWidth="72.0" layoutX="328.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/cherry.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
