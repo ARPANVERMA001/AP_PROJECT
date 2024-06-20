@@ -37,8 +37,11 @@ The project utilizes various OOP concepts including Abstract Classes, Polymorphi
 - Most images are self-created using Pixel-Art.
 
 ## Screenshots
+Game Play Screen:
+![gameplay](https://github.com/ARPANVERMA001/AP_PROJECT/assets/119044678/e6546085-789a-4ac4-915a-6f09f40a3068)
 
-*(Add relevant screenshots here)*
+Respawn Screen:
+![respawnscreen](https://github.com/ARPANVERMA001/AP_PROJECT/assets/119044678/a501688f-f06e-4bdc-865a-717b0f842821)
 
 ## GitHub Repository
 
