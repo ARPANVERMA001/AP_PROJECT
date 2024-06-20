@@ -1,69 +1,61 @@
-﻿README:
+# Stick Hero - JavaFX Project
 
-STICK HERO-JAVA FX PROJECT
+## Description
 
-DESCRIPTION:
+Stick Hero is a retro arcade game where the player controls a Stick-Hero with an infinitely incrementing stick. The objective is to move from one platform to another using this rotating stick. The game features various bonuses like cherries that increment the score and add to the fun.
 
-The Stick Hero game is based on a retro arcade game theme. Here the game has a Stick-Hero with a stick and guess what this one increments infinitely! The player moves from one platform to another with the help of this rotating stick. It can invert and also get various bonusses like cherries and increment its score.
+## How to Play
 
-How To Play:
+1. **Start the Game**: On the Home Screen, click on the Background to start incrementing the length of the stick.
+2. **Control the Stick**: Click again to stop the stick from growing.
+3. **Collect Bonuses**: Click once more after the hero starts moving to collect randomly generating cherries.
+4. **Avoid Obstacles**: Be cautious of colliding into Platform 2.
 
-On the Home Screen Click on the Background to increment the length of the stick, click again to stop the incrementation, click again after the hero starts moving to collect the randomly generating cherries, However keep caution from colliding into the platform2.
+You can save your game progress, exit the game, and reload it from the Home screen.
 
-You can save the game and exit the game. Reload it from the Home screen and much more.
+## Project Structure
 
-Structure of The Project:
+The project utilizes various OOP concepts including Abstract Classes, Polymorphism, Interfaces, JUnit, Design Patterns, Wrapper Classes, Exception Handling, Serialization-Deserialization, and File Writing. The main game loop is executed in the `Main` class.
 
-The Project is divided into various classes. Using various OOPS concepts like Abstarct Class, Polymorphism, Interfaces, JUnit, DesignPatterns, wrapper classes, Exception handling, Serialization-Deserialization, File writing. The main game is run by playing the run in the Main class.
+### Main Homepage
+- **Options**: Start a new game or load a pre-saved game.
+- **Game Screen**: Save game state, view score, lives, timer, cherries, and play the game.
 
-The Main Homepage has two options, either to start the game or to load a preloaded game.
+### JUnit with Multithreading
+- Implemented threading to continuously check the game animation conditions every 10 seconds, outputting "true" to the terminal.
 
-On the screen you can save the game state, see the score, lives, timer and cherries, and obviously play the game too. Do enter the
+### Multithreaded Timer
+- A timer tracks the total time the player has played the game.
 
-JUnit using Multithreading:
+### Design Patterns
+- **Decorator**: Changes the hero's outfits.
+- **Singleton**: Ensures only one timer label is created.
 
-Have implemented Threading to continuously check the conditions of the animation in the game after every 10 seconds. Keeps printing "true" on the terminal.
+## Media
 
-Multithreaded Timer:
+- Background music is included.
+- Most images are self-created using Pixel-Art.
 
-A timer has been maintained which maintains the time for which the player has played the game.
+## Screenshots
 
-Design Pattern:
+*(Add relevant screenshots here)*
 
-Decorator: To change the number of outfit of the Hero.
+## GitHub Repository
 
-Singleton: To not create more than one label for Timer.
+[Stick Hero - JavaFX Project](https://github.com/ARPANVERMA001/AP_PROJECT.git)
 
-Media:
+## Notes
 
-Background song has been implemented. Allmost all the images have been created by us using Pixel-Art.
+We have used absolute paths in the `OutfitHero` class, `GamePlayController`, and `Main` class due to interface constraints. Please change these to relative paths on your system or use appropriate absolute paths.
 
-Screenshots:
+Ensure proper dependencies are installed to run the project.
 
-GIT HUB:
+## Authors
 
-https://github.com/ARPANVERMA001/AP\_PROJECT.git
+- Aaradhya Verma (2022004) - [aaradhya22004@iiitd.ac.in](mailto:aaradhya22004@iiitd.ac.in)
+- Arpan Verma (2022105) - [arpan22105@iiitd.ac.in](mailto:arpan22105@iiitd.ac.in)
 
-NOTE:
+## Acknowledgements
 
-We Have used absolute paths in the OutfitHero class, GamePlayController and in Main class. As relative paths were not supported by our interface. Kindly please change this to relative on your system or use appropriate absolute paths in your project.
-
-Kindly use proper dependencies to run the project.
-
-Authors:
-
-Aaradhya Verma 2022004
-
-Arpan Verma 2022105
-
-Contact Information:
-
-aaradhya22004@iiitd.ac.in
-
-arpan22105@iiitd.ac.in
-
-Acknowledgements:
-
-Fotor AI generator for generating the platform image.
-
-We would like to acknowledge the TA's, TF and Professor for extending the deadline by 6 hours.
+- **Fotor AI Generator**: For generating the platform image.
+- **Thanks to**: The TAs, TF, and Professor for extending the deadline by 6 hours.
